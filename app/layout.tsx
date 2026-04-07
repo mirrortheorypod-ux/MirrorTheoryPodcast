@@ -12,8 +12,8 @@ export default function RootLayout({ children }) {
           </Link>
 
           <div className="flex gap-8 text-sm text-gray-400">
-            <Link href="/episodes">Episodes</Link>
-            <Link href="/about">About</Link>
+            <Link href="/episodes" className="hover:text-white">Episodes</Link>
+            <Link href="/about" className="hover:text-white">About</Link>
           </div>
         </nav>
 
